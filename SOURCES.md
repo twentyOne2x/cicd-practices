@@ -6,11 +6,14 @@ This catalog contains every external URL cited in the guide, including the licen
 
 | Title and link | Publisher | Read date |
 | --- | --- | --- |
+| [The /implement Skill](https://www.aihero.dev/skills-implement) | AI Hero / Matt Pocock | 2026-10-10 |
 | [The /code-review Skill](https://www.aihero.dev/skills-code-review) | AI Hero / Matt Pocock | 2026-10-10 |
 | [Automating safe, hands-off deployments](https://aws.amazon.com/builders-library/automating-safe-hands-off-deployments/) | AWS Builders' Library | 2026-10-10 |
 | [Liberating code review](https://ampcode.com/news/liberating-code-review) | Amp | 2026-10-10 |
 | [Claude Code sandboxing](https://www.anthropic.com/engineering/claude-code-sandboxing) | Anthropic | 2026-10-10 |
 | [Code Review](https://claude.com/resources/articles/code-review) | Anthropic | 2026-10-10 |
+| [Claude Code memory and instructions](https://code.claude.com/docs/en/memory) | Anthropic | 2026-10-10 |
+| [Claude Code prompt caching](https://code.claude.com/docs/en/prompt-caching) | Anthropic | 2026-10-10 |
 | [MergeQueue: batching](https://docs.aviator.co/mergequeue/concepts/batching) | Aviator | 2026-10-10 |
 | [Bors-NG repository and explanation](https://github.com/bors-ng/bors-ng) | Bors-NG project | 2026-10-10 |
 | [Request changes workflow](https://docs.coderabbit.ai/pr-reviews/request-changes-workflow) | CodeRabbit | 2026-10-10 |
@@ -67,6 +70,7 @@ This catalog contains every external URL cited in the guide, including the licen
 | [How Temporal powers reliable cloud operations at Netflix](https://netflixtechblog.com/how-temporal-powers-reliable-cloud-operations-at-netflix-73c69ccb5953) | Netflix TechBlog | 2026-10-10 |
 | [Harness engineering: leveraging Codex in an agent-first world](https://openai.com/index/harness-engineering/) | OpenAI | 2026-10-10 |
 | [How OpenAI uses Codex](https://openai.com/business/guides-and-resources/how-openai-uses-codex/) | OpenAI | 2026-10-10 |
+| [Codex project instructions](https://learn.chatgpt.com/docs/agent-configuration/agents-md) | OpenAI | 2026-10-10 |
 | [OpenClaw: AGENTS.md](https://raw.githubusercontent.com/openclaw/openclaw/main/AGENTS.md) | OpenClaw | 2026-10-10 |
 | [OpenClaw: CI limits skill](https://github.com/openclaw/openclaw/blob/e12c0d2/.agents/skills/openclaw-ci-limits/SKILL.md) | OpenClaw | 2026-10-10 |
 | [OpenClaw: Landing procedure (main)](https://raw.githubusercontent.com/openclaw/openclaw/main/.agents/skills/openclaw-pr-maintainer/references/landing.md) | OpenClaw | 2026-10-10 |

@@ -75,6 +75,7 @@ This sequence is a synthesis of the examples above, rather than a claim that eve
 
 ## Subject pages
 
+- [Working with coding agents](subjects/working-with-coding-agents.md)
 - [Poteto and pstack](subjects/poteto-and-pstack.md)
 - [Matt Pocock](subjects/matt-pocock.md)
 - [OpenClaw and Crabbox](subjects/openclaw-and-crabbox.md)
