@@ -92,3 +92,5 @@ This sequence is a synthesis of the examples above, rather than a claim that eve
 - [Meta, Uber and Shopify](subjects/meta-uber-shopify.md)
 
 [SOURCES.md](SOURCES.md) lists every external source used, its publisher and the read date. Subject pages distinguish dated accounts from undated documentation. Historical descriptions retain their dates; they do not establish current company-wide policy. Original prose is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); see [LICENSE](LICENSE).
+
+To propose a practice or correction, see [CONTRIBUTING.md](CONTRIBUTING.md).

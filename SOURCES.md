@@ -90,3 +90,6 @@ This catalog contains every external URL cited in the guide, including the licen
 | [Merge queue optimizations](https://docs.trunk.io/merge-queue/optimizations) | Trunk | 2026-10-10 |
 | [Predictive testing](https://docs.trunk.io/merge-queue/optimizations/predictive-testing) | Trunk | 2026-10-10 |
 | [Slashing CI costs at Uber](https://www.uber.com/us/en/blog/slashing-ci-costs-at-uber/) | Uber Engineering | 2026-10-10 |
+| [checkout v4.2.2 action definition](https://raw.githubusercontent.com/actions/checkout/11bd71901bbe5b1630ceea73d27597364c9af683/action.yml) | GitHub Actions | 2026-10-10 |
+| [lychee-action v2.0.0 action definition](https://raw.githubusercontent.com/lycheeverse/lychee-action/7da8ec1fc4e01b5a12062ac6c589c10a4ce70d67/action.yml) | lycheeverse | 2026-10-10 |
+| [lychee v0.16.1 command-line reference](https://raw.githubusercontent.com/lycheeverse/lychee/lychee-v0.16.1/README.md) | lycheeverse | 2026-10-10 |
