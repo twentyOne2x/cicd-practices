@@ -2,6 +2,19 @@
 
 A guide to making changes easy to check, review, merge and release. CI means continuous integration: automated checks on proposed and combined changes. CD means continuous delivery or deployment: preparing a releasable version, or sending it to users automatically.
 
+## Ten practices to adopt this week
+
+1. [Keep each change self-contained, with its related tests.](subjects/small-changes.md)
+2. [Give each task an outcome that can be demonstrated or checked.](subjects/matt-pocock.md)
+3. [Run focused checks frequently, then the broader suite.](subjects/matt-pocock.md)
+4. [Get independent review of the proposed change.](subjects/google.md)
+5. [Keep one owner responsible through findings and repairs.](subjects/poteto-and-pstack.md)
+6. [Turn recurring agent mistakes into executable rules.](subjects/agent-instructions.md)
+7. [Configure required checks and reviews before merging.](subjects/github.md)
+8. [Check the combined merge candidate.](subjects/merge-queues.md)
+9. [Use a working preview to review behavior.](subjects/railway.md)
+10. [Release traceable artifacts](subjects/google.md), [stage rollout and keep a recovery path.](subjects/large-engineering-teams.md)
+
 Public sources read: **2026-10-10**. The patterns below recur across published engineering accounts, repository instructions and platform documentation. Each example has its own scope. A platform feature describes what a team can configure; a published workflow describes what its authors ask contributors to do.
 
 ## Make each change small and complete
@@ -31,6 +44,23 @@ Know which source revision produced the version being released. Google's release
 ## Preview the behavior before merge
 
 Let reviewers exercise a working version. Railway documents temporary environments for pull requests and their automatic removal. Linear describes preview builds, review and iteration during its design refresh. Preview infrastructure and feature switches answer different questions: the former provides a running candidate, while the latter controls who sees behavior. [Railway: PR environments](https://docs.railway.com/guides/preview-deployments-with-pr-environments), [Linear: design refresh](https://linear.app/now/behind-the-latest-design-refresh).
+
+## Where these practices appear
+
+The checklist is a synthesis. The labels below distinguish published instructions, configurable features and dated engineering accounts. Historical examples do not establish current company-wide policy.
+
+| Practice | Public examples and their scope |
+| --- | --- |
+| Self-contained changes | [Google review guidance](https://google.github.io/eng-practices/review/developer/small-cls.html); [Graphite stacked-PR feature](https://graphite.com/docs/cli-quick-start). |
+| Demonstrable task outcomes | [Matt Pocock's ticket instructions](https://github.com/mattpocock/skills/blob/main/skills/engineering/to-tickets/SKILL.md). |
+| Focused, then broader checks | [Matt Pocock's implementation instructions](https://github.com/mattpocock/skills/blob/main/skills/engineering/implement/SKILL.md); [Google's testing account, 2020](https://abseil.io/resources/swe-book/html/ch23.html). |
+| Independent review | [Google's review account, 2020](https://abseil.io/resources/swe-book/html/ch09.html); [Amp's separate-reviewer workflow, 2026](https://ampcode.com/news/liberating-code-review). |
+| Ownership through repairs | [Poteto's pstack workflow](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/autopilot-full.md); [Cognition's Devin account, 2026](https://cognition.com/blog/how-cognition-uses-devin-to-build-devin). |
+| Executable rules for recurring mistakes | [pstack's Correct instructions](https://github.com/cursor/plugins/blob/main/pstack/skills/correct/SKILL.md); [Factory's lint-gate account, 2025](https://factory.com/news/using-linters-to-direct-agents). |
+| Required checks and reviews | [GitHub ruleset capabilities](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/available-rules-for-rulesets); [OpenClaw's landing policy, with documented exceptions](https://github.com/openclaw/openclaw/blob/e12c0d2/.agents/skills/openclaw-pr-maintainer/references/landing.md). |
+| Combined-candidate checks | [GitHub's shipping account, 2024](https://github.blog/engineering/engineering-principles/how-github-uses-merge-queue-to-ship-hundreds-of-changes-every-day/); [GitHub merge-queue capability](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/managing-a-merge-queue). |
+| Working previews | [Linear's design-refresh account, 2026](https://linear.app/now/behind-the-latest-design-refresh); [Railway PR-environment capability](https://docs.railway.com/guides/preview-deployments-with-pr-environments). |
+| Traceable releases, staged rollout and recovery | [Google's release-engineering account, 2016](https://sre.google/sre-book/release-engineering/); [Amazon's deployment and rollback account, 2020](https://aws.amazon.com/builders-library/automating-safe-hands-off-deployments/). |
 
 ## A practical starting sequence
 
